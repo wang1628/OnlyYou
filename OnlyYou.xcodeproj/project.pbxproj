@@ -10,6 +10,8 @@
 		EF2A932C200629C900DD12DA /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2A932B200629C900DD12DA /* NoteViewController.swift */; };
 		EF2F9CB2200457610070C456 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2F9CB1200457610070C456 /* AboutViewController.swift */; };
 		EF2F9CB4200460A60070C456 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2F9CB3200460A60070C456 /* RegisterViewController.swift */; };
+		EF30B0BC2006F57400EF809A /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF30B0BB2006F57400EF809A /* DateViewController.swift */; };
+		EF30B0BE2006F7ED00EF809A /* InterestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF30B0BD2006F7ED00EF809A /* InterestViewController.swift */; };
 		EF8C96902005B1D100FC0F3A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8C968F2005B1D100FC0F3A /* LoginViewController.swift */; };
 		EF8C96922005B77400FC0F3A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8C96912005B77400FC0F3A /* ChatViewController.swift */; };
 		EFDA943A2000D20E00396C74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDA94392000D20E00396C74 /* AppDelegate.swift */; };
@@ -42,6 +44,8 @@
 		EF2A932B200629C900DD12DA /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 		EF2F9CB1200457610070C456 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		EF2F9CB3200460A60070C456 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		EF30B0BB2006F57400EF809A /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		EF30B0BD2006F7ED00EF809A /* InterestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestViewController.swift; sourceTree = "<group>"; };
 		EF8C968F2005B1D100FC0F3A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EF8C96912005B77400FC0F3A /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		EFDA94362000D20E00396C74 /* OnlyYou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlyYou.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +114,8 @@
 				EFDA94392000D20E00396C74 /* AppDelegate.swift */,
 				EFDA943B2000D20E00396C74 /* ViewController.swift */,
 				EFDA943D2000D20E00396C74 /* Main.storyboard */,
+				EF30B0BD2006F7ED00EF809A /* InterestViewController.swift */,
+				EF30B0BB2006F57400EF809A /* DateViewController.swift */,
 				EF2A932B200629C900DD12DA /* NoteViewController.swift */,
 				EF8C96912005B77400FC0F3A /* ChatViewController.swift */,
 				EF8C968F2005B1D100FC0F3A /* LoginViewController.swift */,
@@ -274,6 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF30B0BE2006F7ED00EF809A /* InterestViewController.swift in Sources */,
+				EF30B0BC2006F57400EF809A /* DateViewController.swift in Sources */,
 				EF2A932C200629C900DD12DA /* NoteViewController.swift in Sources */,
 				EF2F9CB2200457610070C456 /* AboutViewController.swift in Sources */,
 				EFDA943C2000D20E00396C74 /* ViewController.swift in Sources */,
