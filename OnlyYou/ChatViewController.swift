@@ -22,10 +22,7 @@ class ChatViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func viberate(){
-        AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
-        
-    }
+   
 
     /*
     // MARK: - Navigation
